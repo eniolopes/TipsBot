@@ -6,4 +6,3 @@
 	message['echo']=''
 	im.deliver(mes.from,message)
 })
-

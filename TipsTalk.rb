@@ -25,4 +25,3 @@ while true
 	sleep(5)
 	@robot.verificarMensagens
 end
-

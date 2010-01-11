@@ -1,3 +1,4 @@
+#Core class , Robot base.
 class Robot
 	attr_accessor :im,:lista_amigos,:lista_proc,:lista_mens
 	def initialize(usuario,senha)
