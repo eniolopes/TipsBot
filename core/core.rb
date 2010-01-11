@@ -7,11 +7,11 @@ class Robot
 		@lista_amigos = Array.new 
 		@lista_proc = Hash.new
 		@lista_mens = Hash.new
-		@methods = Hash.new
 		puts "Main Class Loaded."
 	end
 	#Functions that are going to be used later by the user
 	def self.add_method(name,function)
+		@@methods ||= Hash.new
 		@@methods.store(name,function)
 		puts "Method #{name} added."
 	end
